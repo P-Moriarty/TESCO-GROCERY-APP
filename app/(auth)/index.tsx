@@ -21,13 +21,14 @@ const Login = () => {
   const [isInvalid, setIsInvalid] = React.useState(false)
   const [inputValue, setInputValue] = React.useState("12345")
   const handleSubmit = () => {
-    router.replace("/(tabs)/explore")
+    router.replace("/(tabs)");
     if (inputValue.length < 6) {
-      setIsInvalid(true)
+      setIsInvalid(true);
     } else {
-      setIsInvalid(false)
+      setIsInvalid(false);
     }
-  }
+  };
+  
   return (
     <View style={styles.container}>
       <FormControl

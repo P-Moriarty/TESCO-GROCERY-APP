@@ -15,7 +15,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo/html-elements": "^0.4.2",
     "@expo/vector-icons": "^14.0.2",
+    "@gluestack-ui/accordion": "^1.0.14",
     "@gluestack-ui/avatar": "^0.1.18",
     "@gluestack-ui/button": "^1.0.14",
     "@gluestack-ui/divider": "^0.1.10",
@@ -57,7 +59,9 @@
     "react-native": "0.76.7",
     "react-native-css-interop": "^0.1.22",
     "react-native-gesture-handler": "~2.20.2",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-reanimated": "~3.16.1",
+    "react-native-reanimated-carousel": "^4.0.2",
     "react-native-safe-area-context": "^5.3.0",
     "react-native-screens": "~4.4.0",
     "react-native-svg": "^15.2.0",
